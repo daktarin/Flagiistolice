@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/txt_NazwaPanstwa"
+        android:text="to i tak nie ma znaczenia"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h2"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_15dp"
+        android:layout_marginBottom="@dimen/padding_15dp"
+        android:layout_alignParentTop="true"/>
+<ScrollView
+    android:id="@+id/scrollView"
+    android:layout_below="@+id/txt_NazwaPanstwa"
+    android:layout_above="@+id/btnZamknij"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_ekran_wyboru_obszaru"
+        android:layout_below="@+id/scrollView"
+
+        android:padding="10dp">
+
+
+        <fragment
+            android:id="@+id/mapFragment"
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:name="com.google.android.gms.maps.MapFragment" />
+
+
+            <TextView
+                android:id="@+id/txt_opis_panstwa"
+                android:layout_below="@+id/mapFragment"
+                android:text="SAMPLE TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/btnZamknij"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h2"
+        android:paddingTop="@dimen/padding_button_h2"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_zamknij_opis_panstwa"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/txt_btn_zamknij"
+            android:text="@string/text_zamknij"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

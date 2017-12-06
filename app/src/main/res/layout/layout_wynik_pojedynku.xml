@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_ekran_wyboru_obszaru"
+    android:id="@+id/rl_wynik_pojedynku">
+
+    <!-- LAY Z PRZYCISKAMI MENU I JESZCZE RAZ -->
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_jeszcze_raz"
+                    android:background="@drawable/zaokraglone_rogi"
+                    android:layout_alignParentRight="true"
+                    android:padding="10dp"
+                    android:onClick="f_btn_nowy_pojedynek"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_menu"
+                android:background="@drawable/zaokraglone_rogi_2"
+                android:layout_alignParentLeft="true"
+                android:padding="10dp"
+                android:onClick="f_btn_powrot_do_menu"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- KONIEC LAY Z PRZYCISKAMI MENU I JESZCZE RAZ -->
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1.0"
+            android:orientation="vertical">
+
+           <!--  LAYOUT WYGRANY-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="1.0"
+                android:orientation="vertical"
+                android:scaleX="-1"
+                android:scaleY="-1">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2">
+
+                    <TextView
+                        android:id="@+id/tv_pojedynek_gratulacje"
+                        android:textAlignment="center"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_gratulacje"
+                        android:textSize="30dp"
+                        android:textColor="@color/colorButtonNiebieski"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3">
+
+                    <TextView
+                        android:id="@+id/tv_pojedynek_wygrales"
+                        android:textAlignment="center"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_wygrales"
+                        android:textSize="40dp"
+                        android:textColor="@color/colorButtonNiebieski"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3">
+
+                    <TextView
+                        android:id="@+id/tv_pojedynek_wynik_pojedynku_wygrany"
+                        android:textAlignment="center"
+                        android:layout_gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="10 : 5"
+                        android:textSize="70dp"
+                        android:textColor="@color/colorButtonNiebieski"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--  KONIEC LAYOUT WYGRANY-->
+
+            <!--  LAYOUT PRZEGRANY-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="1.0"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2">
+
+                    <TextView
+                        android:id="@+id/tv_pojedynek_niestety"
+                        android:textAlignment="center"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_niestety"
+                        android:textSize="30dp"
+                        android:textColor="@color/colorButtonSzary"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3">
+
+                    <TextView
+                        android:id="@+id/tv_pojedynek_przegrales"
+                        android:textAlignment="center"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_przegrales"
+                        android:textSize="40dp"
+                        android:textColor="@color/colorButtonSzary"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3">
+
+                    <TextView
+                        android:id="@+id/tv_pojedynek_wynik_pojedynku_przegrany"
+                        android:textAlignment="center"
+                        android:layout_gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="10 : 5"
+                        android:textSize="70dp"
+                        android:textColor="@color/colorButtonSzary"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--  KONIEC LAYOUT PRZEGRANY-->
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

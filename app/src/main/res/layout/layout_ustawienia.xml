@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt_EkranWyboruUstawienia"
+        android:text="@string/text_ustawienia"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h2"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_15dp"
+        android:layout_marginBottom="@dimen/padding_15dp"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/txt_wybierz_jezyk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_wybierz_jezyk"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/txt_EkranWyboruUstawienia"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="0dp"
+        android:textSize="16dp"/>
+
+    <ImageView
+        android:id="@+id/btn_wersja_angielska"
+        android:layout_toRightOf="@+id/btn_wersja_polska"
+        android:layout_below="@+id/txt_wybierz_jezyk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_lang_en_normal" />
+
+    <ImageView
+        android:id="@+id/btn_wersja_niemiecka"
+        android:layout_toRightOf="@+id/btn_wersja_angielska"
+        android:layout_below="@+id/txt_wybierz_jezyk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_lang_de_normal" />
+
+
+    <RelativeLayout
+        android:id="@+id/btnWsteczEkranUstawienia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h2"
+        android:paddingTop="@dimen/padding_button_h2"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_wstecz_ustawienia"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/txt_btn_wstecz_ustawienia"
+            android:text="@string/text_wstecz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_napisz_do_mnie"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/btn_wersja_polska"
+        android:layout_alignLeft="@+id/btn_wersja_polska"
+        android:layout_marginTop="@dimen/margin_top_ekran_ustawienia">
+
+        <TextView
+            android:id="@+id/txt_napisz_do_mnie"
+            android:layout_width="wrap_content"
+            android:maxLines="1"
+            android:maxWidth="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_napisz_do_mnie"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/btn_napisz_do_mnie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_e_mail" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ocen_aplikacje"
+        android:layout_below="@+id/btn_wersja_polska"
+        android:layout_toRightOf="@+id/ll_napisz_do_mnie"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left_ekran_ustawienia"
+        android:layout_marginTop="@dimen/margin_top_ekran_ustawienia">
+
+        <TextView
+            android:id="@+id/txt_ocen_aplikacje"
+            android:layout_width="wrap_content"
+            android:maxLines="1"
+            android:maxWidth="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_ocen_aplikacje"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/btn_ocen_aplikacje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_ocen" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_inne_aplikacje"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/ll_ocen_aplikacje"
+        android:layout_alignLeft="@+id/btn_wersja_polska"
+        android:layout_marginTop="@dimen/margin_top_ekran_ustawienia">
+
+        <TextView
+            android:id="@+id/txt_zobacz_inne_apki"
+            android:layout_width="wrap_content"
+            android:maxLines="1"
+            android:maxWidth="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_zobacz_inne_apki"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/btn_inne_apki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_inne_apki" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_przewodnik"
+        android:layout_below="@+id/ll_ocen_aplikacje"
+        android:layout_toRightOf="@+id/ll_inne_aplikacje"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left_ekran_ustawienia"
+        android:layout_marginTop="@dimen/margin_top_ekran_ustawienia">
+
+        <TextView
+            android:id="@+id/txt_info"
+            android:layout_width="wrap_content"
+            android:maxLines="1"
+            android:maxWidth="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_przewodnik"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/btn_przewodnik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_info" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_wersja_polska"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_lang_pl_normal"
+        android:layout_below="@+id/txt_wybierz_jezyk"
+        android:layout_alignLeft="@+id/txt_wybierz_jezyk"
+        android:layout_alignStart="@+id/txt_wybierz_jezyk" />
+
+</RelativeLayout>

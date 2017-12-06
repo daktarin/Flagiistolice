@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/abchazja"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="10dp"
+        />
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/imageView"
+       android:layout_marginLeft="20dp"
+       android:layout_centerInParent="true">
+
+      <RelativeLayout
+          android:id="@+id/rl_panstwo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <TextView
+
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/textViewNazwa1"
+              android:textColor="@color/colorBlack"
+              android:textSize="@dimen/font_height_h4"
+              />
+
+          <TextView
+              android:text="TextView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/textViewNazwa"
+              android:textColor="@color/colorButtonNiebieski"
+              android:layout_toRightOf="@id/textViewNazwa1"
+              android:layout_marginLeft="7dp"
+              android:textSize="@dimen/font_height_h4"
+              />
+
+      </RelativeLayout>
+
+       <RelativeLayout
+           android:id="@+id/rl_stolica"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/rl_panstwo"
+           android:layout_marginTop="3dp">
+
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/textViewOcena1"
+               android:textColor="@color/colorBlack"
+               android:textSize="@dimen/font_height_h4"/>
+
+           <TextView
+               android:text="TextView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/textViewOcena"
+               android:textColor="@color/colorButtonNiebieski"
+               android:layout_toRightOf="@id/textViewOcena1"
+               android:layout_marginLeft="7dp"
+               android:textSize="@dimen/font_height_h4"
+               />
+
+       </RelativeLayout>
+
+
+
+
+   </RelativeLayout>
+
+</RelativeLayout>

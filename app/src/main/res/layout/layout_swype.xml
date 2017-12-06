@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:paddingBottom="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_jeden_powtorki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+
+            <TextView
+                android:id="@+id/text_nr_powtorki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/font_height_h2"
+                android:textColor="@color/colorButtonNiebieski"/>
+
+            <TextView
+                android:id="@+id/text_nr_pytania_powtorki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/30"
+                android:textSize="@dimen/font_height_h3"
+                android:textColor="@color/colorButtonNiebieski"
+                android:layout_toRightOf="@+id/text_nr_powtorki"
+                android:layout_alignBaseline="@+id/text_nr_powtorki"/>
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_flaga_powtorki"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:src="@drawable/albania"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:elevation="10dp"
+            android:layout_below="@+id/rl_jeden_powtorki"
+            />
+
+        <TextView
+            android:id="@+id/txt_nazwa_panstwa_powtorki"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Polska"
+            android:textAlignment="center"
+            android:textSize="@dimen/font_height_h2"
+            android:textColor="@color/colorButtonNiebieski"
+            android:layout_below="@+id/iv_flaga_powtorki"
+            android:lineSpacingExtra="-10dp"/>
+
+        <TextView
+            android:id="@+id/txt_nazwa_stolicy_powtorki"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warszawa"
+            android:textAlignment="center"
+            android:textSize="@dimen/font_height_h3"
+            android:textColor="@color/colorButtonNiebieski"
+            android:layout_below="@+id/txt_nazwa_panstwa_powtorki"
+            android:lineSpacingExtra="-10dp"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,781 @@
+<resources>
+
+    <string name="text_tryb_nauki">WYBIERZ TRYB NAUKI</string>
+    <string name="text_tryb_lista">LISTA</string>
+    <string name="text_tryb_mapa">MAPA KONTUROWA</string>
+
+    <string name="text_pojedynek_wybierz_obszar">POJEDYNEK\nWYBIERZ OBSZAR</string>
+    <string name="text_gratulacje">Gratulacje!</string>
+    <string name="text_niestety">Niestety!</string>
+    <string name="text_wygrales">WYGRAŁEŚ!</string>
+    <string name="text_przegrales">PRZEGRAŁEŚ!</string>
+
+    <string name="wersja_jezykowa">pl</string>
+
+    <string name="text_powrot_do_menu">POWRÓT DO MENU</string>
+    <string name="text_powtorki">POWTÓRKI</string>
+
+    <string name="text_testy">TESTY</string>
+    <string name="text_testy_i_gry">TESTY I GRY</string>
+    <string name="text_pojedynek_btn">POJEDYNEK</string>
+
+    <string name="text_rodzaje_testow">WYBIERZ TEST LUB GRĘ</string>
+    <string name="app_name">Flagi i stolice świata</string>
+    <string name="text_flagi_i_stolice_swiata">FLAGI I STOLICE ŚWIATA</string>
+    <string name="text_flagi_i_stolice_swiata_nauka">FLAGI I STOLICE\n</string>
+    <string name="text_swiata">ŚWIATA</string>
+    <string name="text_europy">EUROPY</string>
+    <string name="text_a_poludniowej">AMERYKI PŁD.</string>
+    <string name="text_a_polnocnej">AMERYKI PŁN.</string>
+    <string name="text_afryki">AFRYKI</string>
+    <string name="text_azji">AZJI</string>
+    <string name="text_australii">AUSTRALII</string>
+    <string name="text_exit_komunikat">Naciśnij jeszcze raz aby wyjść</string>
+    <string name="text_twoje_wyniki">TWOJE WYNIKI</string>
+    <string name="text_ustawienia">USTAWIENIA</string>
+    <string name="text_menu">MENU</string>
+    <string name="text_numer">NR.</string>
+    <string name="text_obszar">OBSZAR</string>
+    <string name="text_poprawne">POPRAWNE</string>
+    <string name="text_pobierz_teraz">POBIERZ TERAZ</string>
+    <string name="text_przypomnij_pozniej">PRZYPOMNIJ PÓŹNIEJ</string>
+    <string name="text_dostepna_jest_nowa_wersja_aplikacji">DOSTĘPNA JEST NOWSZA WERSJA APLIKACJI</string>
+    <string name="text_nauka">NAUKA</string>
+    <string name="text_kraj">Kraj:</string>
+    <string name="text_stolica">Stolica:</string>
+    <string name="text_test_flagi">TEST - FLAGI</string>
+    <string name="text_test_stolice">TEST - STOLICE</string>
+    <string name="text_wstecz">WSTECZ</string>
+    <string name="text_koniec">KONIEC</string>
+    <string name="text_alfabetycznie">ALFABETYCZNIE</string>
+    <string name="text_losowo">LOSOWO</string>
+    <string name="text_nauka_wybierz_obszar">NAUKA\nWYBIERZ OBSZAR</string>
+    <string name="text_test_wybierz_obszar">TEST\nWYBIERZ OBSZAR</string>
+    <string name="text_flagi_i_stolice_swiata_test">FLAGI I STOLICE ŚWIATA TEST</string>
+    <string name="text_przerwij_test">PRZERWIJ TEST</string>
+    <string name="text_dobrze">Dobrze:</string>
+    <string name="text_zle">Źle:</string>
+    <string name="text_brawo">BRAWO! UDZIELIŁEŚ</string>
+    <string name="text_swietnie">ŚWIETNIE! UDZIELIŁEŚ</string>
+    <string name="text_dobrze_">DOBRZE! UDZIELIŁEŚ</string>
+    <string name="text_slabo">SŁABO! UDZIELIŁEŚ</string>
+    <string name="text_fatalnie">FATALNIE! UDZIELIŁEŚ</string>
+    <string name="text_poprawnych_odpowiedzi">POPRAWNYCH ODPOWIEDZI</string>
+    <string name="text_rada_100">PAMIĘTAJ ABY CO JAKIŚ CZAS POWTARZAĆ MATERIAŁ</string>
+    <string name="text_rada_80">JEST DOBRZE, ALE CZĘSTO POWTARZAJ MATERIAŁ</string>
+    <string name="text_rada_60">UCZ SIĘ DALEJ ABY POPRAWIĆ SWÓJ WYNIK</string>
+    <string name="text_rada_40">WRÓĆ DO TRYBU NAUKI I POĆWICZ JESZCZE</string>
+    <string name="text_rada_20">PRZED TOBĄ JESZCZE DUŻO NAUKI. POWODZENIA</string>
+    <string name="text_wybierz_jezyk">Wybierz język:</string>
+    <string name="text_napisz_do_mnie">Napisz do mnie:</string>
+    <string name="text_ocen_aplikacje">Oceń aplikację:</string>
+    <string name="text_zobacz_inne_apki">Inne aplikacje:</string>
+    <string name="text_przewodnik">Przewodnik:</string>
+
+    <string name="text_ocen_apke_dialog_tytul">Oceń aplikację</string>
+    <string name="text_ocen_apke_dialog_tresc">Jest mi bardzo miło, że korzystasz z tej aplikacji.
+        Będę wdzięczny jeśli zechcesz poświęcić chwilę i wystawić swoją ocenę.
+        Dzięki za wsparcie i uwagi!</string>
+
+    <string name="text_ocen_apke_dialog_tak">Oceń teraz</string>
+    <string name="text_ocen_apke_dialog_nie">Nie</string>
+    <string name="text_ocen_apke_dialog_pozniej">Później</string>
+
+
+    <!-- wpisy dotyczące przewodnika po aplikacji -->
+
+    <string name="text_next">Dalej</string>
+    <string name="text_skip">Pomiń</string>
+    <string name="text_start">Rozpocznij</string>
+    <string name="text_wstecz_intro">Wstecz</string>
+
+    <string name="text_tytul_intro_s1">Tryby pracy aplikacji</string>
+    <string name="text_opis_intro_s1">Aplikacja zawiera tryb nauki i tryb testowy, dzięki któremu sprawdzisz poziom przyswojonej wiedzy.</string>
+
+    <string name="text_tytul_intro_s2">Nauka</string>
+    <string name="text_opis_intro_s2">W trybie nauki przedstawione są trzy podstawowe informacje na temat danego kraju: jego nazwa, stolica i flaga.</string>
+
+    <string name="text_tytul_intro_s3">Testy</string>
+    <string name="text_opis_intro_s3">Wykonanie testu możliwe jest w dwóch wariantach: test flag - w którym należy dopasować flagę do kraju oraz test stolic - w którym należy dopasować stolicę do kraju.</string>
+
+    <string name="text_tytul_intro_s4">Wyniki</string>
+    <string name="text_opis_intro_s4">Za każdym razem kiedy ukończysz test uzyskany wynik jest zapisywany do listy z Twoimi wynikami. Dzięki temu możesz łatwiej kontrolować swoje postępy!</string>
+
+
+    <string name="text_zamknij">Zamknij</string>
+
+    <string name="text_trwa_ladowanie_danych">Czekaj! Trwa ładowanie danych...</string>
+    <string name="text_nie_udalo_sie_zaladowac_danych">Nie udało się załadować danych. Sprawdź połączenie z Internetem.</string>
+
+    <string-array name="panstwa_nazwa">
+        <item>Abchazja</item>
+        <item>Afganistan</item>
+        <item>Albania</item>
+        <item>Algieria</item>
+        <item>Andora</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antigua i Barbuda</item>
+        <item>Arabia Saudyjska</item>
+        <item>Argentyna</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbejdżan</item>
+        <item>Bahamy</item>
+        <item>Bahrajn</item>
+        <item>Bangladesz</item>
+        <item>Barbados</item>
+        <item>Belgia</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermudy</item>
+        <item>Bhutan</item>
+        <item>Białoruś</item>
+        <item>Boliwia</item>
+        <item>Bośnia i Hercegowina</item>
+        <item>Botswana</item>
+        <item>Brazylia</item>
+        <item>Brunei</item>
+        <item>Bułgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Chile</item>
+        <item>Chiny</item>
+        <item>Chorwacja</item>
+        <item>Curaçao</item>
+        <item>Cypr</item>
+        <item>Cypr Północny</item>
+        <item>Czad</item>
+        <item>Czarnogóra</item>
+        <item>Czechy</item>
+        <item>Dania</item>
+        <item>Demokratyczna Republika Konga</item>
+        <item>Dominika</item>
+        <item>Dominikana</item>
+        <item>Dżibuti</item>
+        <item>Egipt</item>
+        <item>Ekwador</item>
+        <item>Erytrea</item>
+        <item>Estonia</item>
+        <item>Etiopia</item>
+        <item>Fidżi</item>
+        <item>Filipiny</item>
+        <item>Finlandia</item>
+        <item>Francja</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Ghana</item>
+        <item>Górski Karabach</item>
+        <item>Grecja</item>
+        <item>Grenada</item>
+        <item>Grenlandia</item>
+        <item>Gruzja</item>
+        <item>Gujana</item>
+        <item>Gwatemala</item>
+        <item>Gwinea</item>
+        <item>Gwinea Bissau</item>
+        <item>Gwinea Równikowa</item>
+        <item>Haiti</item>
+        <item>Hiszpania</item>
+        <item>Holandia</item>
+        <item>Honduras</item>
+        <item>Indie</item>
+        <item>Indonezja</item>
+        <item>Irak</item>
+        <item>Iran</item>
+        <item>Irlandia</item>
+        <item>Islandia</item>
+        <item>Izrael</item>
+        <item>Jamajka</item>
+        <item>Japonia </item>
+        <item>Jemen</item>
+        <item>Jordania</item>
+        <item>Kambodża</item>
+        <item>Kamerun</item>
+        <item>Kanada</item>
+        <item>Katar</item>
+        <item>Kazachstan</item>
+        <item>Kenia</item>
+        <item>Kirgistan</item>
+        <item>Kiribati</item>
+        <item>Kolumbia</item>
+        <item>Komory</item>
+        <item>Kongo</item>
+        <item>Korea Południowa</item>
+        <item>Korea Północna</item>
+        <item>Kosowo</item>
+        <item>Kostaryka</item>
+        <item>Kuba</item>
+        <item>Kuwejt</item>
+        <item>Laos</item>
+        <item>Lesoto</item>
+        <item>Liban</item>
+        <item>Liberia</item>
+        <item>Libia</item>
+        <item>Liechtenstein</item>
+        <item>Litwa</item>
+        <item>Luksemburg</item>
+        <item>Łotwa</item>
+        <item>Macedonia</item>
+        <item>Madagaskar</item>
+        <item>Majotta</item>
+        <item>Malawi</item>
+        <item>Malediwy</item>
+        <item>Malezja</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Maroko</item>
+        <item>Mauretania</item>
+        <item>Mauritius</item>
+        <item>Meksyk</item>
+        <item>Mikronezja</item>
+        <item>Mjanma</item>
+        <item>Mołdawia</item>
+        <item>Monako</item>
+        <item>Mongolia</item>
+        <item>Mozambik</item>
+        <item>Naddniestrze</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Niemcy</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Nikaragua</item>
+        <item>Norwegia</item>
+        <item>Nowa Zelandia</item>
+        <item>Oman</item>
+        <item>Osetia Południowa</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestyna</item>
+        <item>Panama</item>
+        <item>Papua-Nowa Gwinea</item>
+        <item>Paragwaj</item>
+        <item>Peru</item>
+        <item>Polska</item>
+        <item>Portugalia</item>
+        <item>Republika Południowej Afryki</item>
+        <item>Republika Środkowoafrykańska</item>
+        <item>Republika Zielonego Przylądka</item>
+        <item>Rosja</item>
+        <item>Rumunia</item>
+        <item>Rwanda</item>
+        <item>Sahara Zachodnia</item>
+        <item>Saint-Barthélemy</item>
+        <item>Saint Kitts i Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Vincent i Grenadyny</item>
+        <item>Salwador</item>
+        <item>Samoa</item>
+        <item>Samoa Amerykańskie</item>
+        <item>San Marino</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seszele</item>
+        <item>Sierra Leone</item>
+        <item>Singapur</item>
+        <item>Słowacja</item>
+        <item>Słowenia</item>
+        <item>Somalia</item>
+        <item>Somaliland</item>
+        <item>Sri Lanka</item>
+        <item>Stany Zjednoczone</item>
+        <item>Suazi</item>
+        <item>Sudan</item>
+        <item>Sudan Południowy</item>
+        <item>Surinam</item>
+        <item>Syria</item>
+        <item>Szwajcaria</item>
+        <item>Szwecja</item>
+        <item>Tadżykistan</item>
+        <item>Tajlandia</item>
+        <item>Tajwan</item>
+        <item>Tanzania</item>
+        <item>Timor Wschodni</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Trynidad i Tobago</item>
+        <item>Tunezja</item>
+        <item>Turcja</item>
+        <item>Turkmenistan</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraina</item>
+        <item>Urugwaj</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Watykan</item>
+        <item>Wenezuela</item>
+        <item>Węgry</item>
+        <item>Wielka Brytania</item>
+        <item>Wietnam</item>
+        <item>Włochy</item>
+        <item>Wybrzeże Kości Słoniowej</item>
+        <item>Wyspy Alandzkie</item>
+        <item>Wyspy Dziewicze</item>
+        <item>Wyspy Marshalla</item>
+        <item>Wyspy Salomona</item>
+        <item>Wyspy Świętego Tomasza i Książęca</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+        <item>Zjednoczone Emiraty Arabskie</item>
+    </string-array>
+
+    <string-array name="stolice_nazwa">
+        <item>Suchumi</item>
+        <item>Kabul</item>
+        <item>Tirana</item>
+        <item>Algier</item>
+        <item>Andorra</item>
+        <item>Luanda</item>
+        <item>The Valley</item>
+        <item>Saint John’s</item>
+        <item>Rijad</item>
+        <item>Buenos Aires</item>
+        <item>Erywań</item>
+        <item>Oranjestad</item>
+        <item>Canberra</item>
+        <item>Wiedeń</item>
+        <item>Baku</item>
+        <item>Nassau</item>
+        <item>Manama</item>
+        <item>Dhaka</item>
+        <item>Bridgetown</item>
+        <item>Bruksela</item>
+        <item>Belmopan</item>
+        <item>Porto-Novo</item>
+        <item>Hamilton</item>
+        <item>Thimphu</item>
+        <item>Mińsk</item>
+        <item>Sucre</item>
+        <item>Sarajewo</item>
+        <item>Gaborone</item>
+        <item>Brasília</item>
+        <item>Bandar Seri Begawan</item>
+        <item>Sofia</item>
+        <item>Wagadugu</item>
+        <item>Bużumbura</item>
+        <item>Santiago</item>
+        <item>Pekin</item>
+        <item>Zagrzeb</item>
+        <item>Willemstad</item>
+        <item>Nikozja</item>
+        <item>Nikozja</item>
+        <item>Ndżamena</item>
+        <item>Podgorica</item>
+        <item>Praga</item>
+        <item>Kopenhaga</item>
+        <item>Kinszasa</item>
+        <item>Roseau</item>
+        <item>Santo Domingo</item>
+        <item>Dżibuti</item>
+        <item>Kair</item>
+        <item>Quito</item>
+        <item>Asmara</item>
+        <item>Tallinn</item>
+        <item>Addis Abeba</item>
+        <item>Suva</item>
+        <item>Manila</item>
+        <item>Helsinki</item>
+        <item>Paryż</item>
+        <item>Libreville</item>
+        <item>Bandżul</item>
+        <item>Akra</item>
+        <item>Stepanakert</item>
+        <item>Ateny</item>
+        <item>Saint George’s</item>
+        <item>Nuuk</item>
+        <item>Tbilisi</item>
+        <item>Georgetown</item>
+        <item>Gwatemala</item>
+        <item>Konakry</item>
+        <item>Bissau</item>
+        <item>Malabo</item>
+        <item>Port-au-Prince</item>
+        <item>Madryt</item>
+        <item>Amsterdam</item>
+        <item>Tegucigalpa</item>
+        <item>Nowe Delhi</item>
+        <item>Dżakarta</item>
+        <item>Bagdad</item>
+        <item>Teheran</item>
+        <item>Dublin</item>
+        <item>Reykjavík</item>
+        <item>Jerozolima</item>
+        <item>Kingston</item>
+        <item>Tokio</item>
+        <item>Sana</item>
+        <item>Amman</item>
+        <item>Phnom Penh</item>
+        <item>Jaunde</item>
+        <item>Ottawa</item>
+        <item>Doha</item>
+        <item>Astana</item>
+        <item>Nairobi</item>
+        <item>Biszkek</item>
+        <item>Bairiki</item>
+        <item>Bogota</item>
+        <item>Moroni</item>
+        <item>Brazzaville</item>
+        <item>Seul</item>
+        <item>Pjongjang</item>
+        <item>Prisztina</item>
+        <item>San José</item>
+        <item>Hawana</item>
+        <item>Kuwejt</item>
+        <item>Wientian</item>
+        <item>Maseru</item>
+        <item>Bejrut</item>
+        <item>Monrovia</item>
+        <item>Trypolis</item>
+        <item>Vaduz</item>
+        <item>Wilno</item>
+        <item>Luksemburg</item>
+        <item>Ryga</item>
+        <item>Skopje</item>
+        <item>Antananarywa</item>
+        <item>Mamoudzou</item>
+        <item>Lilongwe</item>
+        <item>Male</item>
+        <item>Kuala Lumpur</item>
+        <item>Bamako</item>
+        <item>Valletta</item>
+        <item>Rabat</item>
+        <item>Nawakszut</item>
+        <item>Port Louis</item>
+        <item>Meksyk</item>
+        <item>Palikir</item>
+        <item>Naypyidaw</item>
+        <item>Kiszyniów</item>
+        <item>Monako</item>
+        <item>Ułan Bator</item>
+        <item>Maputo</item>
+        <item>Tyraspol</item>
+        <item>Windhuk</item>
+        <item>Yaren</item>
+        <item>Katmandu</item>
+        <item>Berlin</item>
+        <item>Niamey</item>
+        <item>Abudża</item>
+        <item>Managua</item>
+        <item>Oslo</item>
+        <item>Wellington</item>
+        <item>Maskat</item>
+        <item>Cchinwali</item>
+        <item>Islamabad</item>
+        <item>Ngerulmud</item>
+        <item>Jerozolima</item>
+        <item>Panama</item>
+        <item>Port Moresby</item>
+        <item>Asunción</item>
+        <item>Lima</item>
+        <item>Warszawa</item>
+        <item>Lizbona</item>
+        <item>Pretoria</item>
+        <item>Bangi</item>
+        <item>Praia</item>
+        <item>Moskwa</item>
+        <item>Bukareszt</item>
+        <item>Kigali</item>
+        <item>Al-Ujun</item>
+        <item>Gustavia</item>
+        <item>Basseterre</item>
+        <item>Castries</item>
+        <item>Kingstown</item>
+        <item>San Salvador</item>
+        <item>Apia</item>
+        <item>Fagatogo</item>
+        <item>San Marino</item>
+        <item>Dakar</item>
+        <item>Belgrad</item>
+        <item>Victoria</item>
+        <item>Freetown</item>
+        <item>Singapur</item>
+        <item>Bratysława</item>
+        <item>Lublana</item>
+        <item>Mogadiszu</item>
+        <item>Hargejsa</item>
+        <item>Kolombo</item>
+        <item>Waszyngton</item>
+        <item>Mbabane</item>
+        <item>Chartum</item>
+        <item>Dżuba</item>
+        <item>Paramaribo</item>
+        <item>Damaszek</item>
+        <item>Berno</item>
+        <item>Sztokholm</item>
+        <item>Duszanbe</item>
+        <item>Bangkok</item>
+        <item>Nankin </item>
+        <item>Dodoma</item>
+        <item>Dili</item>
+        <item>Lomé</item>
+        <item>Nuku’alofa</item>
+        <item>Port of Spain</item>
+        <item>Tunis</item>
+        <item>Ankara</item>
+        <item>Aszchabad</item>
+        <item>Vaiaku</item>
+        <item>Kampala</item>
+        <item>Kijów</item>
+        <item>Montevideo</item>
+        <item>Taszkent</item>
+        <item>Port Vila</item>
+        <item>Watykan</item>
+        <item>Caracas</item>
+        <item>Budapeszt</item>
+        <item>Londyn</item>
+        <item>Hanoi</item>
+        <item>Rzym</item>
+        <item>Jamusukro</item>
+        <item>Maarianhamina</item>
+        <item>Charlotte Amalie</item>
+        <item>Majuro</item>
+        <item>Honiara</item>
+        <item>São Tomé</item>
+        <item>Lusaka</item>
+        <item>Harare</item>
+        <item>Abu Zabi</item>
+
+    </string-array>
+
+    <string-array name="kontynenty_nazwa">
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Ameryka Północna</item>
+        <item>Ameryka Północna</item>
+        <item>Azja</item>
+        <item>Ameryka Południowa</item>
+        <item>Azja</item>
+        <item>Ameryka Południowa</item>
+        <item>Australia</item>
+        <item>Europa</item>
+        <item>Azja</item>
+        <item>Ameryka Północna</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Ameryka Północna</item>
+        <item>Europa</item>
+        <item>Ameryka Północna</item>
+        <item>Afryka</item>
+        <item>Ameryka Północna</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Ameryka Południowa</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Ameryka Południowa</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Ameryka Południowa</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Ameryka Północna</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Afryka</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Ameryka Północna</item>
+        <item>Ameryka Północna</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Ameryka Południowa</item>
+        <item>Afryka</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Australia</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Ameryka Północna</item>
+        <item>Ameryka Północna</item>
+        <item>Azja</item>
+        <item>Ameryka Południowa</item>
+        <item>Ameryka Północna</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Ameryka Północna</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Ameryka Północna</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Azja</item>
+        <item>Ameryka Północna</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Afryka</item>
+        <item>Ameryka Północna</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Afryka</item>
+        <item>Azja</item>
+        <item>Australia</item>
+        <item>Ameryka Południowa</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Ameryka Północna</item>
+        <item>Ameryka Północna</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Afryka</item>
+        <item>Azja</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Afryka</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Ameryka Północna</item>
+        <item>Australia</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Azja</item>
+        <item>Afryka</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Australia</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Ameryka Północna</item>
+        <item>Europa</item>
+        <item>Australia</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Australia</item>
+        <item>Azja</item>
+        <item>Ameryka Północna</item>
+        <item>Australia</item>
+        <item>Ameryka Południowa</item>
+        <item>Ameryka Południowa</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Ameryka Północna</item>
+        <item>Ameryka Północna</item>
+        <item>Ameryka Północna</item>
+        <item>Ameryka Północna</item>
+        <item>Ameryka Północna</item>
+        <item>Australia</item>
+        <item>Australia</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Azja</item>
+        <item>Ameryka Północna</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Ameryka Południowa</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Afryka</item>
+        <item>Azja</item>
+        <item>Afryka</item>
+        <item>Australia</item>
+        <item>Ameryka Północna</item>
+        <item>Afryka</item>
+        <item>Azja</item>
+        <item>Azja</item>
+        <item>Australia</item>
+        <item>Afryka</item>
+        <item>Europa</item>
+        <item>Ameryka Południowa</item>
+        <item>Azja</item>
+        <item>Australia</item>
+        <item>Europa</item>
+        <item>Ameryka Południowa</item>
+        <item>Europa</item>
+        <item>Europa</item>
+        <item>Azja</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Europa</item>
+        <item>Ameryka Północna</item>
+        <item>Australia</item>
+        <item>Australia</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Afryka</item>
+        <item>Azja</item>
+
+    </string-array>
+    <string name="appwidget_text">Flaga na dziś</string>
+    <string name="add_widget">Dodaj widget</string>
+    <string name="txt_wstecz">Poprzednie</string>
+    <string name="txt_naprzod">Następne</string>
+    <string name="txt_losuj">Losowe</string>
+
+    <string name="txt_nie_wiem">Nie wiem</string>
+    <string name="txt_wiem">Wiem</string>
+
+    <string name="txt_powtorki_opis">
+        Tu pojawiają się flagi, stolice i państwa, przy których popełniłeś błąd.
+        Obecnie nie masz nic do powtórzenia.
+    </string>
+
+
+
+
+
+
+</resources>

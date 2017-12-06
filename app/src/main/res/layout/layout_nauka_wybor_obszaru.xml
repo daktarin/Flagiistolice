@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/txt_EkranWyboruNauka"
+        android:text="@string/text_nauka_wybierz_obszar"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h2"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_15dp"
+        android:layout_marginBottom="@dimen/padding_15dp"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_ekran_wyboru_obszaru"
+        android:layout_below="@+id/txt_EkranWyboruNauka"
+        android:layout_above="@+id/btnWsteczEkranWyboruNauka"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_caly_swiat"
+                    android:id="@+id/btn_caly_swiat"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                   />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_europa"
+                    android:id="@+id/btn_europa"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_a_polnocna"
+                    android:id="@+id/btn_a_polnocna"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_a_poludniowa"
+                    android:id="@+id/btn_a_poludniowa"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_afryka"
+                    android:id="@+id/btn_afryka"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_azja"
+                    android:id="@+id/btn_azja"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_australia"
+                    android:id="@+id/btn_australia"
+                    android:clickable="true"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/btnWsteczEkranWyboruNauka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h2"
+        android:paddingTop="@dimen/padding_button_h2"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_wstecz_nauka_wybor_obszaru"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/txt_btn_wstecz_wybor_obszaru"
+            android:text="@string/text_wstecz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

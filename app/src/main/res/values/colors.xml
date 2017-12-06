@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorButtonNiebieski">#00475d</color>
+    <color name="colorButtonNiebieskiPrzezroczysty">#B300475d</color>
+    <color name="colorButtonSzary">#6b6b6b</color>
+    <color name="colorButtonSzaryPrzezroczysty">#B36b6b6b</color>
+    <color name="colorNiebieskiJasny">#29a9d2</color>
+
+
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="dot_active">#003574</color>
+    <color name="dot_inactive">#cccccc</color>
+    <color name="colorBackgroundIntroTop">#003574</color>
+
+    <color name="colorZielonyKontrastowy">#ffca28</color>
+    <color name="colorZielonyKontrastowyPrzezroczysty">#CCffca28</color>
+    <color name="colorCzerwonyApla">#FFF44336</color>
+    <color name="colorZielonyApla">#FF1eff00</color>
+    <color name="colorCzerwonyPrzezroczysty">#00ff0000</color>
+    <color name="colorCzarnyPolPrzezroczysty">#BFffffff</color>
+
+    <color name="kolorCienia">#ffffff</color>
+
+
+
+</resources>

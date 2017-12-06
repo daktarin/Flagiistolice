@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_twoje_wyniki"
+        android:text="@string/text_twoje_wyniki"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h1"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:lineSpacingExtra="0dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_twoje_wyniki_naglowek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/txt_twoje_wyniki">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1.0"
+            android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:backgroundTint="#ff0000"
+            android:onClick="wyczyscBazeDanych">
+            <TextView
+                android:id="@+id/tv_twoje_wyniki_naglowek1"
+                android:text="@string/text_numer"
+                android:textSize="@dimen/font_height_wyniki_naglowek"
+                android:textColor="@color/colorButtonNiebieski"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_obszar_lista_wynikow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:backgroundTint="#ff0000"
+            >
+            <TextView
+                android:id="@+id/tv_twoje_wyniki_naglowek2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_obszar"
+                android:textSize="@dimen/font_height_wyniki_naglowek"
+                android:textColor="@color/colorButtonNiebieski"
+                android:gravity="left"/>
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:backgroundTint="#ff0000"
+                android:onClick="sortujDane">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/tv_twoje_wyniki_naglowek3"
+                        android:text="@string/text_poprawne"
+                        android:textSize="@dimen/font_height_wyniki_naglowek"
+                        android:textColor="@color/colorButtonNiebieski"
+                        android:gravity="center_horizontal"
+                        />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/btnWsteczEkranTwojeWyniki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h2"
+        android:paddingTop="@dimen/padding_button_h2"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_wstecz_twoje_wyniki"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/txt_btn_wstecz_twoje_wyniki"
+            android:text="@string/text_wstecz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"
+            />
+
+    </RelativeLayout>
+
+    <ListView
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/lv"
+        android:divider="#00000000"
+        android:dividerHeight="0px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnWsteczEkranTwojeWyniki"
+        android:layout_below="@+id/rl_twoje_wyniki_naglowek"
+        android:listSelector="@android:color/transparent"
+        >
+
+    </ListView>
+
+</RelativeLayout>

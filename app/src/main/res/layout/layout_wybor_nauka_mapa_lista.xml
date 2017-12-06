@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_WybierzTrybNauki"
+        android:text="@string/text_tryb_nauki"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h2"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_15dp"
+        android:layout_marginBottom="@dimen/padding_15dp"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_below="@+id/txt_WybierzTrybNauki"
+        android:layout_above="@+id/btnWsteczEkranWyborTrybuNauki"
+     >
+
+
+    <RelativeLayout
+        android:id="@+id/btn_nauka_lista"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h1"
+        android:paddingTop="@dimen/padding_button_h1"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_lista_wybor_obszaru_do_nauki"
+        android:layout_marginBottom="@dimen/margin_bottom">
+
+        <TextView
+            android:id="@+id/tv_btn_nauka_lista"
+            android:text="@string/text_tryb_lista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"/>
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_nauka_podglad_mapy"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_wstecz_xml"
+            android:paddingBottom="@dimen/padding_button_h1"
+            android:paddingTop="@dimen/padding_button_h1"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="f_btn_pokaz_mape"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_below="@+id/btn_nauka_lista">
+
+            <TextView
+                android:id="@+id/tv_btn_nauka_podglad_mapy"
+                android:text="@string/text_tryb_mapa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_height_button"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnWsteczEkranWyborTrybuNauki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h2"
+        android:paddingTop="@dimen/padding_button_h2"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_wstecz_wybor_trybu_nauki"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/txt_btn_wstecz_wybor_trybu_nauki"
+            android:text="@string/text_wstecz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/text_brawo"
+        android:id="@+id/txt_wyniki1"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h3"
+        android:textColor="@color/colorButtonNiebieski"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"/>
+
+    <TextView
+        android:text="100%"
+        android:id="@+id/txt_wyniki2_procenty"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h00"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_below="@+id/txt_wyniki1"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"/>
+
+    <TextView
+        android:text="@string/text_poprawnych_odpowiedzi"
+        android:id="@+id/txt_wyniki3"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h3"
+        android:textColor="@color/colorButtonNiebieski"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/txt_wyniki2_procenty"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"/>
+
+    <TextView
+        android:text="@string/text_rada_100"
+        android:id="@+id/txt_wyniki_rada"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h3"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/txt_wyniki3"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_wyniki_rada"
+        android:layout_above="@+id/l_btn_koniec_wyniki"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:id="@+id/l_btn_nauka_wyniki"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_wstecz_xml"
+            android:paddingBottom="@dimen/padding_button_h1"
+            android:paddingTop="@dimen/padding_button_h1"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="f_btn_nauka"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/tv_btn_nauka_wyniki"
+                android:text="@string/text_nauka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_height_button"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/l_btn_testy"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_wstecz_xml"
+            android:paddingBottom="@dimen/padding_button_h1"
+            android:paddingTop="@dimen/padding_button_h1"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="pokaz_layout_wybor_testu"
+            android:layout_below="@+id/l_btn_nauka_wyniki"
+            android:layout_marginBottom="@dimen/margin_bottom">
+
+            <TextView
+                android:id="@+id/tv_btn_testy_wyniki"
+                android:text="@string/text_testy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_height_button"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/l_btn_twoje_wyniki"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_wstecz_xml"
+            android:paddingBottom="@dimen/padding_button_h1"
+            android:paddingTop="@dimen/padding_button_h1"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="f_btn_twoje_wyniki"
+            android:layout_below="@+id/l_btn_testy"
+            android:layout_marginBottom="@dimen/margin_bottom">
+
+            <TextView
+                android:id="@+id/tv_btn_twoje_wyniki_wyniki"
+                android:text="@string/text_twoje_wyniki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_height_button"
+                android:textColor="@color/colorWhite"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/l_btn_baza_powtorek_wyniki"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_wstecz_xml"
+            android:paddingBottom="@dimen/padding_button_h1"
+            android:paddingTop="@dimen/padding_button_h1"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="f_btn_twoje_powtorki"
+            android:layout_below="@+id/l_btn_twoje_wyniki"
+            android:layout_marginBottom="@dimen/margin_bottom">
+
+            <TextView
+                android:id="@+id/tv_btn_baza_powtorek_wyniki"
+                android:text="@string/text_powtorki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_height_button"
+                android:textColor="@color/colorWhite"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l_btn_koniec_wyniki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h2"
+        android:paddingTop="@dimen/padding_button_h2"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_wstecz_twoje_wyniki"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/tv_btn_koniec_wyniki"
+            android:text="@string/text_powrot_do_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorBackgroundIntroTop">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/e2_intro"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_below="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:id="@+id/tv_intro_tytul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_tytul_intro_s2"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/margin_top_intro_tytul"
+            android:layout_marginBottom="@dimen/margin_top_intro_tytul"
+            android:layout_marginLeft="@dimen/margin_left_right_intro_tytul"
+            android:layout_marginRight="@dimen/margin_left_right_intro_tytul"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/font_height_intro_tytul"/>
+
+        <TextView
+            android:id="@+id/tv_intro_opis"
+            android:layout_below="@+id/tv_intro_tytul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_opis_intro_s2"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/margin_top_intro_tytul"
+            android:layout_marginLeft="@dimen/margin_left_right_intro_tytul"
+            android:layout_marginRight="@dimen/margin_left_right_intro_tytul"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/font_height_intro_opis"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_height_h00">80dp</dimen>
+    <dimen name="font_height_h0">50dp</dimen>
+    <dimen name="font_height_h1">40dp</dimen>
+    <dimen name="font_height_h2">30dp</dimen>
+
+    <dimen name="font_height_h_35dp">35dp</dimen>
+
+    <dimen name="font_height_h3">22dp</dimen>
+    <dimen name="font_height_h19dp">19dp</dimen>
+
+    <dimen name="font_height_h4">15dp</dimen>
+    <dimen name="font_height_button">25dp</dimen>
+    <dimen name="font_height_button_small">16dp</dimen>
+    <dimen name="padding_button_h1">10dp</dimen>
+    <dimen name="padding_button_h2">10dp</dimen>
+    <dimen name="padding_button_h3">5dp</dimen>
+
+    <dimen name="padding_15dp">15dp</dimen>
+
+    <dimen name="margin_bottom">15dp</dimen>
+
+    <dimen name="font_height_wyniki_naglowek">17dp</dimen>
+
+    <dimen name="padding_lista_wyniki">8dp</dimen>
+
+    <dimen name="dots_height">95dp</dimen>
+
+    <dimen name="dots_margin_bottom">40dp</dimen>
+    <dimen name="margin_top_intro_tytul">30dp</dimen>
+    <dimen name="margin_left_right_intro_tytul">40dp</dimen>
+    <dimen name="font_height_intro_tytul">18dp</dimen>
+    <dimen name="font_height_intro_opis">15dp</dimen>
+
+    <dimen name="margin_top_ekran_ustawienia">20dp</dimen>
+    <dimen name="margin_left_ekran_ustawienia">15dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="margin_left_flaga_mapa">6dp</dimen>
+
+</resources>

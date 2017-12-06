@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_WybierzTest"
+        android:text="@string/text_rodzaje_testow"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h2"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_15dp"
+        android:layout_marginBottom="@dimen/padding_15dp"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_below="@+id/txt_WybierzTest"
+        android:layout_above="@+id/btnWsteczEkranWyborTestu"
+     >
+
+
+    <RelativeLayout
+        android:id="@+id/l_btn_test"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h1"
+        android:paddingTop="@dimen/padding_button_h1"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_test"
+        android:layout_below="@+id/l_btn_nauka"
+        android:layout_marginBottom="@dimen/margin_bottom">
+
+        <TextView
+            android:id="@+id/tv_btn_test"
+            android:text="@string/text_test_flagi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l_btn_test_stolice"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h1"
+        android:paddingTop="@dimen/padding_button_h1"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_test"
+        android:layout_below="@+id/l_btn_test"
+        android:layout_marginBottom="@dimen/margin_bottom">
+
+        <TextView
+            android:id="@+id/tv_btn_test_stolice"
+            android:text="@string/text_test_stolice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"/>
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/l_btn_gra_pojedynek"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_wstecz_xml"
+            android:paddingBottom="@dimen/padding_button_h1"
+            android:paddingTop="@dimen/padding_button_h1"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="f_btn_pojedynek_wybierz_obszar"
+            android:layout_below="@+id/l_btn_test_stolice"
+            android:layout_marginBottom="@dimen/margin_bottom">
+
+            <TextView
+                android:id="@+id/tv_btn_pojedynek"
+                android:text="@string/text_pojedynek_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_height_button"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnWsteczEkranWyborTestu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h2"
+        android:paddingTop="@dimen/padding_button_h2"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_wstecz_wybor_testu"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/txt_btn_wstecz_wybor_testu"
+            android:text="@string/text_wstecz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

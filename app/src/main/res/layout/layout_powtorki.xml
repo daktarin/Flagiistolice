@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_EkranPowtorkiTytul"
+        android:text="@string/text_powtorki"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h2"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_15dp"
+        android:layout_marginBottom="@dimen/padding_15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"
+        android:onClick="wyczysc_baze_powtorek"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_EkranPowtorkiTytul"
+        android:layout_above="@+id/btnWsteczPowtorki"
+        android:background="@drawable/bg_ekran_wyboru_obszaru">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:layout_below="@+id/txt_EkranPowtorkiTytul"
+        android:layout_above="@+id/ll_btn_nie_wiem_wiem"
+        android:gravity="center"
+        android:paddingBottom="0dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPagerPowtorki"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_nic_do_powtorki"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_below="@+id/txt_EkranPowtorkiTytul"
+        android:layout_above="@+id/btnWsteczPowtorki">
+
+        <TextView
+            android:id="@+id/txt_powtorki"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_powtorki_opis"
+            android:textSize="@dimen/font_height_h3"
+            android:textColor="@color/colorButtonNiebieski" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_btn_nie_wiem_wiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/btnWsteczPowtorki"
+        android:weightSum="1.0">
+
+
+        <RelativeLayout
+            android:layout_marginRight="3dp"
+            android:id="@+id/btnNieWiem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_kontrastowy_xml"
+            android:paddingBottom="@dimen/padding_button_h3"
+            android:paddingTop="@dimen/padding_button_h3"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            android:layout_marginBottom="5dp"
+            android:onClick="btn_nie_wiem_powtorki_click">
+
+        <TextView
+            android:id="@+id/txt_btn_nie_wiem"
+            android:text="@string/txt_nie_wiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"
+            />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="3dp"
+            android:id="@+id/btnWiem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_kontrastowy_xml"
+            android:paddingBottom="@dimen/padding_button_h3"
+            android:paddingTop="@dimen/padding_button_h3"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="f_usun_widok_z_bazy_powtorek">
+
+            <TextView
+                android:id="@+id/txt_btn_wiem"
+                android:text="@string/txt_wiem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_height_button"
+                android:textColor="@color/colorWhite"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnWsteczPowtorki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h2"
+        android:paddingTop="@dimen/padding_button_h2"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_wstecz_twoje_wyniki"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/txt_btn_powrot_do_menu_powtorki"
+            android:text="@string/text_powrot_do_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

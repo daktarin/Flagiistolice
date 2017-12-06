@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_EkranTestTytul"
+        android:text="@string/text_flagi_i_stolice_swiata_test"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_height_h2"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_15dp"
+        android:layout_marginBottom="@dimen/padding_15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_ekran_wyboru_obszaru"
+        android:layout_below="@+id/txt_EkranTestTytul"
+        android:layout_above="@+id/btnWsteczTest"
+        android:gravity="center"
+        android:paddingBottom="0dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/rl_jeden">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/text_nr_pytania"
+                android:textSize="@dimen/font_height_h2"
+                android:textColor="@color/colorButtonNiebieski"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/30"
+                android:id="@+id/text_nr_pytania1"
+                android:textSize="@dimen/font_height_h3"
+                android:textColor="@color/colorButtonNiebieski"
+                android:layout_toRightOf="@+id/text_nr_pytania"
+                android:layout_alignBaseline="@+id/text_nr_pytania"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:id="@+id/dwa"
+            android:layout_below="@+id/rl_jeden"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp">
+
+
+            <ImageView
+                android:id="@+id/iv_flaga_test"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:src="@drawable/albania"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:elevation="10dp"
+                android:background="@drawable/cien"/>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:id="@+id/txt_nazwa_panstwa_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sample"
+                android:textAlignment="center"
+                android:textSize="@dimen/font_height_h_35dp"
+                android:textColor="@color/colorCzerwonyApla"
+                android:lineSpacingExtra="-10dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/trzy"
+            android:layout_below="@+id/dwa">
+
+            <LinearLayout
+                android:id="@+id/ll_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <RelativeLayout
+                    android:id="@+id/btnTestA"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4925"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_wstecz_xml"
+                    android:paddingBottom="@dimen/padding_button_h2"
+                    android:paddingTop="@dimen/padding_button_h2"
+                    android:gravity="center_horizontal"
+                    android:clickable="true"
+                    android:onClick="f_odp"
+                    android:layout_alignParentLeft="true">
+
+                    <TextView
+                        android:id="@+id/txt_test_odp_A"
+                        android:text="A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_height_button_small"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+                        android:layout_centerInParent="true"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.015">
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnTestB"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4925"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_wstecz_xml"
+                    android:paddingBottom="@dimen/padding_button_h2"
+                    android:paddingTop="@dimen/padding_button_h2"
+                    android:gravity="center_horizontal"
+                    android:clickable="true"
+                    android:onClick="f_odp"
+                    android:layout_alignParentRight="true">
+
+                    <TextView
+                        android:id="@+id/txt_test_odp_B"
+                        android:text="B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_height_button_small"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+                        android:layout_centerInParent="true"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/ll_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <RelativeLayout
+                    android:id="@+id/btnTestC"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4925"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_wstecz_xml"
+                    android:paddingBottom="@dimen/padding_button_h2"
+                    android:paddingTop="@dimen/padding_button_h2"
+                    android:gravity="center_horizontal"
+                    android:clickable="true"
+                    android:onClick="f_odp"
+                    android:layout_alignParentLeft="true">
+
+                    <TextView
+                        android:id="@+id/txt_test_odp_C"
+                        android:text="C"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_height_button_small"
+                        android:textColor="@color/colorWhite"
+                        android:layout_centerInParent="true"
+                        android:textAlignment="center"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.015">
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnTestD"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4925"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_wstecz_xml"
+                    android:paddingBottom="@dimen/padding_button_h2"
+                    android:paddingTop="@dimen/padding_button_h2"
+                    android:gravity="center_horizontal"
+                    android:clickable="true"
+                    android:onClick="f_odp"
+                    android:layout_alignParentRight="true">
+
+                    <TextView
+                        android:id="@+id/txt_test_odp_D"
+                        android:text="D"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_height_button_small"
+                        android:textColor="@color/colorWhite"
+                        android:layout_centerInParent="true"
+                        android:textAlignment="center"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/cztery"
+            android:layout_below="@+id/trzy"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+               >
+
+                <TextView
+                    android:id="@+id/txt_dobrze"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Dobrze: 1"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/font_height_h4"
+                    android:textColor="@color/colorNiebieskiJasny"/>
+
+                <TextView
+                    android:id="@+id/txt_zle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Źle: 10"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/font_height_h4"
+                    android:textColor="@color/colorNiebieskiJasny"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnWsteczTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_wstecz_xml"
+        android:paddingBottom="@dimen/padding_button_h2"
+        android:paddingTop="@dimen/padding_button_h2"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="f_btn_przerwij_test"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/txt_btn_przerwij_test"
+            android:text="@string/text_przerwij_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_height_button"
+            android:textColor="@color/colorWhite"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

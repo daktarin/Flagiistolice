@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/border"
+        android:scaleType="fitXY"
+        android:alpha="0"/>
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true">
+
+       <TextView
+           android:id="@+id/txt_dostepna_jest_nowa_wersja_aplikacji"
+           android:text="@string/text_dostepna_jest_nowa_wersja_aplikacji"
+           android:textAlignment="center"
+           android:textSize="@dimen/font_height_h2"
+           android:textColor="@color/colorButtonNiebieski"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="25dp"
+           android:paddingLeft="30dp"
+           android:paddingRight="30dp"
+           android:lineSpacingExtra="0dp"/>
+
+       <RelativeLayout
+           android:id="@+id/l_btn_pobierz_teraz"
+           android:layout_below="@+id/txt_dostepna_jest_nowa_wersja_aplikacji"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true">
+
+           <RelativeLayout
+
+               android:layout_width="250dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/btn_wstecz_xml"
+               android:paddingBottom="@dimen/padding_button_h1"
+               android:paddingTop="@dimen/padding_button_h1"
+               android:gravity="center_horizontal"
+               android:clickable="true"
+               android:onClick="f_btn_pobierz_teraz"
+               android:layout_marginBottom="@dimen/margin_bottom">
+
+               <TextView
+                   android:id="@+id/tv_btn_pobierz_teraz"
+                   android:text="@string/text_pobierz_teraz"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="@dimen/font_height_button"
+                   android:textColor="@color/colorWhite"/>
+           </RelativeLayout>
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:id="@+id/l_btn_przypomnij_pozniej"
+           android:layout_below="@+id/l_btn_pobierz_teraz"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true">
+
+           <RelativeLayout
+
+               android:layout_width="250dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/btn_wstecz_xml"
+               android:paddingBottom="@dimen/padding_button_h1"
+               android:paddingTop="@dimen/padding_button_h1"
+               android:gravity="center_horizontal"
+               android:clickable="true"
+               android:onClick="f_btn_przypomnij_pozniej"
+               android:layout_marginBottom="@dimen/margin_bottom">
+
+               <TextView
+                   android:id="@+id/tv_btn_przypomnij_pozniej"
+                   android:text="@string/text_przypomnij_pozniej"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="@dimen/font_height_button"
+                   android:textColor="@color/colorWhite"/>
+           </RelativeLayout>
+
+       </RelativeLayout>
+
+   </RelativeLayout>
+
+</RelativeLayout>

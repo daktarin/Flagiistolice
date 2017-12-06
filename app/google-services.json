@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "960279003079",
+    "firebase_url": "https://flagiistolice-f5ff7.firebaseio.com",
+    "project_id": "flagiistolice-f5ff7",
+    "storage_bucket": "flagiistolice-f5ff7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960279003079:android:173460d8f64c1bd2",
+        "android_client_info": {
+          "package_name": "eu.huras.marcin.flagiistolice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960279003079-0bpqu63ql9chl4ghb844r0mdlj9t8c7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.huras.marcin.flagiistolice",
+            "certificate_hash": "6e16937f911e88d94c5b6c2db339b385dfbe8247"
+          }
+        },
+        {
+          "client_id": "960279003079-qbosscn7tc91bsgmegs579h3nqnuvg9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFN3sgEbWHUfQ38rb1Oa43ppikx1I6rIk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960279003079-qbosscn7tc91bsgmegs579h3nqnuvg9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
